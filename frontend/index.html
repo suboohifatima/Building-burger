@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Burger Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="logo.svg" class="logo" alt="logo">
+    <h1>Burger Builder</h1>
+  </header>
+
+  <main class="container">
+    <section class="builder">
+      <h2>Build a Burger</h2>
+      <input id="burgerName" placeholder="Burger name" class="input" />
+      <div class="toppings">
+        <h3>Toppings</h3>
+        <div id="toppingsList"></div>
+      </div>
+      <div class="price-row">
+        <label>Base Price: $<input id="basePrice" type="number" value="3" min="1" /></label>
+        <button id="addBtn" class="btn">Add Burger</button>
+        <button id="updateBtn" class="btn hidden">Update Burger</button>
+        <button id="cancelEditBtn" class="btn ghost hidden">Cancel Edit</button>
+      </div>
+      <h3>Preview</h3>
+      <div id="preview" class="preview">Your burger preview</div>
+    </section>
+
+    <section class="menu">
+      <h2>Menu</h2>
+      <ul id="burgerList" class="list"></ul>
+    </section>
+
+    <section class="cart">
+      <h2>Cart</h2>
+      <ul id="cartList" class="list"></ul>
+      <div class="total">Total: $<span id="total">0</span></div>
+      <button id="checkoutBtn" class="btn">Checkout (COD)</button>
+    </section>
+  </main>
+
+  <!-- Checkout Modal -->
+  <div id="checkoutModal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Checkout</h2>
+      <div id="orderSummary"></div>
+      <input id="custName" placeholder="Your name" class="input" />
+      <input id="custPhone" placeholder="Phone" class="input" />
+      <input id="custAddress" placeholder="Address" class="input" />
+      <button id="placeOrderBtn" class="btn">Place Order (COD)</button>
+      <button id="closeModal" class="btn ghost">Close</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

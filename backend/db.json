@@ -1,0 +1,147 @@
+{
+  "burgers": [
+    {
+      "id": 2,
+      "name": "Cheese Burger",
+      "price": 12.5,
+      "toppings": [
+        "Cheese"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Veggie Burger",
+      "price": 4,
+      "toppings": [
+        "Lettuce",
+        "Tomato"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Cheese Burger",
+      "price": 5.5,
+      "toppings": [
+        "Patty"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Cheese Burger",
+      "price": 3.5,
+      "toppings": [
+        "Patty"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "veg burger",
+      "price": 10.5,
+      "toppings": [
+        "Lettuce"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Cheese Burger",
+      "price": 3.5,
+      "toppings": [
+        "Mustard"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Chicken ",
+      "price": 30.5,
+      "toppings": [
+        "Mayonnaise"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Cheese Burger",
+      "price": 30.5,
+      "toppings": [
+        "Mayonnaise"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "items": [
+        {
+          "id": 8,
+          "name": "Cheese Burger",
+          "price": 3.5,
+          "toppings": [
+            "Mustard"
+          ]
+        }
+      ],
+      "total": 3.5,
+      "customer": {
+        "name": "hhh",
+        "phone": "bbb ",
+        "address": "  b"
+      },
+      "createdAt": "2025-10-21T07:07:53.052Z"
+    },
+    {
+      "id": 2,
+      "items": [
+        {
+          "id": 9,
+          "name": "Chicken ",
+          "price": 30.5,
+          "toppings": [
+            "Mayonnaise"
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Cheese Burger",
+          "price": 3.5,
+          "toppings": [
+            "Mustard"
+          ]
+        }
+      ],
+      "total": 34,
+      "customer": {
+        "name": "Hina",
+        "phone": "1234",
+        "address": "qaz"
+      },
+      "createdAt": "2025-10-21T07:19:15.581Z"
+    },
+    {
+      "id": 3,
+      "items": [
+        {
+          "id": 10,
+          "name": "Cheese Burger",
+          "price": 30.5,
+          "toppings": [
+            "Mayonnaise"
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Chicken ",
+          "price": 30.5,
+          "toppings": [
+            "Mayonnaise"
+          ]
+        }
+      ],
+      "total": 61,
+      "customer": {
+        "name": "heena",
+        "phone": "1234",
+        "address": "qazx"
+      },
+      "createdAt": "2025-10-21T07:26:47.238Z"
+    }
+  ]
+}
